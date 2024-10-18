@@ -8,8 +8,7 @@ ypos = []
 y = lambda t: v0*t + 0.5*a*t**2
 
 for t in range(4):
-    if y(t) < 7:
-        ypos.append(y(t))
+    ypos.append(y(t))
 
 print('-'*28,'CODE OUTPUT','-'*29,'\n')
 print(f'Position y(t) = {ypos}')
